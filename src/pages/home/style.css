@@ -1,0 +1,83 @@
+.conteudo{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+
+.info{
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: white;
+}
+
+input{
+    border-radius: 22px;
+    border: 1px solid #999999;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    min-width: 250px;
+    width: 60%;
+    margin-right: 12px;
+}
+
+button{
+    border-radius: 22px;
+    border: 1px solid #999999;
+    background: #2d333b;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-right: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: #2d333b;
+    transition: 1s;
+}
+
+
+
+.perfil{
+    display: flex;
+    margin: 40px 0;
+}
+
+.perfil h3{
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+    
+}
+
+.perfil p{
+    color: #999999;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.perfil span{
+    display: block;
+    color: #999999;
+    font-size: 16px;
+    margin: 0;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 2px solid white;
+    margin-right: 32px;
+}
