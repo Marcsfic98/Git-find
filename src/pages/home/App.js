@@ -1,5 +1,6 @@
 import {Header} from "../../components/Header"
 
+import { ItenList } from "../../components/List";
 import './style.css'
 
 function App() {
@@ -28,8 +29,11 @@ function App() {
             
             <hr/>
 
-            <div>
+            <div className="repositorio">
               <h4>Repositórios</h4>
+              <ItenList title='teste' description='desc teste'/>
+              <ItenList title='teste' description='desc teste'/>
+              <ItenList title='teste' description='desc teste'/>
             </div>
 
         </div>{/*info*/}
