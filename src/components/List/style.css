@@ -24,3 +24,13 @@
     font-size: 16px;
     margin: 24px 0;
 }
+
+.item-list a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.item-list a:hover{
+    text-decoration: underline;
+}

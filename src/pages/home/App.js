@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {Header} from "../../components/Header"
-
+import git from '../../assents/logo/git.png'
 import { ItenList } from "../../components/List";
 import './style.css'
 
@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <Header/>
       <div className="conteudo">
-        <img src="" className="background" alt="background app"/>
+        <img src={git} className="background" alt="background app"/>
         <div className="info">
 
             <div>
@@ -65,7 +65,7 @@ function App() {
                 <h4>Repositórios</h4>
 
                 {repos.map(repo => (
-                  <ItenList title={repo.name} description={repo.description}/>
+                  <ItenList title={repo.name} description={repo.description} link={repo.svn_url}/>
                 ))}
                 
               </div>

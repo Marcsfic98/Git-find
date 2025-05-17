@@ -7,8 +7,10 @@
 
 .background{
     height: 100vh;
-    position: absolute;
-    left: 0;
+    width: 50%;
+    position: fixed;
+    left: -25%;
+    background-repeat: no-repeat;
 }
 
 .info{
@@ -88,4 +90,15 @@ button:hover{
     color: white;
     margin: 22px 0;
     text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .background{
+        width: 150%;
+        z-index: -1;
+    }
+    .info{
+        width: 100%;
+        margin: 35px 30px;
+    }
 }
